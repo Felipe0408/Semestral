@@ -190,9 +190,6 @@ public class Preguntas extends AppCompatActivity {
                 //Toast Toast1 = Toast.makeText(getApplicationContext(), "Funciona"+Resp1+" "+Resp2+" "+Resp3+" "+Resp4+" "+Resp5+" "+Total+" "+Arreglo[0]+" "+Arreglo[1]+" "+Arreglo[2]+" "+Arreglo[3]+" "+Arreglo[4], Toast.LENGTH_LONG);
                 //Toast1.setGravity(Gravity.CENTER, 200, -650);
                 //Toast1.show();
-                Toast Toast1 = Toast.makeText(getApplicationContext(), "Funciona"+Total+" "+Arreglo[0]+" "+Arreglo[1]+" "+Arreglo[2]+" "+Arreglo[3]+" "+Arreglo[4], Toast.LENGTH_LONG);
-                Toast1.setGravity(Gravity.CENTER, 200, -650);
-                Toast1.show();
             }
         });
 
