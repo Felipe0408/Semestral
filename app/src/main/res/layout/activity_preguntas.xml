@@ -56,7 +56,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/Pregunta1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -76,25 +76,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/p1_r1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Una serie de pasos que se deben seguir para resolver un problema. " />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/p1_r2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Una función que toma un valor de entrada y devuelve un valor de salida." />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/p1_r3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Una estructura de datos que almacena información." />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/p1_r4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Una máquina que puede pensar por sí misma." />
@@ -107,7 +107,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/Pregunta2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -127,25 +127,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/p2_r1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Algoritmos de búsqueda, algoritmos de clasificación, algoritmos de optimización y algoritmos de aprendizaje automático." />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/p2_r2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Algoritmos de búsqueda y algoritmos de clasificación." />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/p2_r3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Algoritmos de optimización y algoritmos de aprendizaje automático." />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/p2_r4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Algoritmos de búsqueda, algoritmos de clasificación y algoritmos de optimización." />
@@ -158,7 +158,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/Pregunta3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -178,25 +178,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/p3_r1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Velocidad, eficiencia y precisión." />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/p3_r2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Flexibilidad, facilidad de implementación y precisión." />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/p3_r3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Velocidad, eficiencia y flexibilidad." />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/p3_r4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Eficiencia, precisión y facilidad de implementación." />
@@ -210,7 +210,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/Pregunta4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -230,25 +230,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/p4_r1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Complejidad, posibilidad de errores y requerimiento de recursos." />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/p4_r2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Flexibilidad, dificultad de implementación y precisión." />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/p4_r3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Velocidad, eficiencia y flexibilidad." />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/p4_r4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Eficiencia, precisión y facilidad de implementación." />
@@ -260,7 +260,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/Pregunta5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
@@ -280,25 +280,25 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/p5_r1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="C++, Java, Python, R y otros." />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/p5_r2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="C++ y Java." />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/p5_r3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Java y Python." />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/p5_r4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Python y R." />

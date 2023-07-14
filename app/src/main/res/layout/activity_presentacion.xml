@@ -6,6 +6,118 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/bEmpezar"
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="#1409AF"
+        android:text="Empezar"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="31dp"
+        android:layout_margin="20dp"
+        android:text="Si desea comenzar presiona:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/autores2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:text="Creadores"
+        android:textColor="#A8B5C1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/autores"
+        android:layout_width="367dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:text=" Joel Aparicio, Felipe castillo, Airlenys Recuero y Gabriela Vásquez"
+        android:textAlignment="center"
+        android:textColor="#c4d3e0"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="42dp"
+        android:text="¡Bienvenidos!"
+        android:textColor="#012b7e"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/subtitulo2"
+        android:layout_width="379dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="205dp"
+        android:text="Prueba tus conocimientos con nuestro cuestionario"
+        android:textAlignment="center"
+        android:textColor="#0194fe"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/inicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo2"
+        app:srcCompat="@drawable/inicio" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
