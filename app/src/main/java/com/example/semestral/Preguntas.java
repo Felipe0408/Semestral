@@ -2,8 +2,12 @@ package com.example.semestral;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -17,20 +21,25 @@ public class Preguntas extends AppCompatActivity {
             P4_R1, P4_R2, P4_R3, P4_R4,
             P5_R1, P5_R2, P5_R3, P5_R4;
 
+    Button Enviar;
+    ImageView Atras;
+
     int Resp1 = 0, Resp2= 0, Resp3= 0, Resp4= 0, Resp5= 0, Total= 0;
-    int[] Arreglo = new int[6];
+    int[] Arreglo = new int[5];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preguntas);
 
-        //Se identifican los grupos
+        //Se identifican los grupos y los botones
         Grupo1 = findViewById(R.id.RG1);
         Grupo2 = findViewById(R.id.RG2);
         Grupo3 = findViewById(R.id.RG3);
         Grupo4 = findViewById(R.id.RG4);
         Grupo5 = findViewById(R.id.RG5);
+        Enviar = findViewById(R.id.bEnviar);
+        Atras = findViewById(R.id.Atras);
 
         //Se identifican los radio button
         P1_R1 = findViewById(R.id.p1_r1);
@@ -73,9 +82,6 @@ public class Preguntas extends AppCompatActivity {
                 } else if (Respchoose == P1_R4){
                     Resp1 = 0;
                     Arreglo[0] = 4;
-                    //Toast Toast1 = Toast.makeText(getApplicationContext(), "Funciona"+Resp1+" "+Arreglo[0], Toast.LENGTH_LONG);
-                    //Toast1.setGravity(Gravity.CENTER, 200, -650);
-                    //Toast1.show();
                 }
             }
         });
@@ -149,11 +155,11 @@ public class Preguntas extends AppCompatActivity {
             }
         });
 
-        //Listener del grupo 4 de radio button
-        Grupo4.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
+        //Listener del grupo 5 de radio button
+        Grupo5.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
             @Override
             public void onCheckedChanged(RadioGroup arg0, int selectedId) {
-                selectedId=Grupo4.getCheckedRadioButtonId();
+                selectedId=Grupo5.getCheckedRadioButtonId();
                 RadioButton Respchoose = (RadioButton) findViewById(selectedId);
                 //Decide si sumar puntos y guarda la respuesta elegida en el arreglo en la posición 0
                 if (Respchoose == P5_R1){
@@ -172,7 +178,31 @@ public class Preguntas extends AppCompatActivity {
             }
         });
 
+        Enviar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Total = Resp1+Resp2+Resp3+Resp4+Resp5;
+                //Intent para pasar a la interfaz de resultados
+                Intent IntentToResultados = new Intent(Preguntas.this, resultados.class);
+                IntentToResultados.putExtra("Arreglo", Arreglo);
+                IntentToResultados.putExtra("Total", Total);
+                startActivity(IntentToResultados);
+                //Toast Toast1 = Toast.makeText(getApplicationContext(), "Funciona"+Resp1+" "+Resp2+" "+Resp3+" "+Resp4+" "+Resp5+" "+Total+" "+Arreglo[0]+" "+Arreglo[1]+" "+Arreglo[2]+" "+Arreglo[3]+" "+Arreglo[4], Toast.LENGTH_LONG);
+                //Toast1.setGravity(Gravity.CENTER, 200, -650);
+                //Toast1.show();
+                Toast Toast1 = Toast.makeText(getApplicationContext(), "Funciona"+Total+" "+Arreglo[0]+" "+Arreglo[1]+" "+Arreglo[2]+" "+Arreglo[3]+" "+Arreglo[4], Toast.LENGTH_LONG);
+                Toast1.setGravity(Gravity.CENTER, 200, -650);
+                Toast1.show();
+            }
+        });
 
+        Atras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent IntentBack = new Intent(Preguntas.this, MainActivity.class);
+                startActivity(IntentBack);
+            }
+        });
 
     }
 }
