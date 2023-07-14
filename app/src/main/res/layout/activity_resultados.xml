@@ -6,4 +6,382 @@
     android:layout_height="match_parent"
     tools:context=".resultados">
 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Puntuación obtenida:"
+                android:textColor="#012b7e"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/puntos"
+                android:layout_width="201dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="3 sobre 5"
+                android:textColor="#0194fe"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="A continuación, podrás revisar tus preguntas y respuestas del cuestionario, así como verificar los resultados obtenidos."
+                android:textColor="#474E53"
+                android:textSize="17sp" />
+
+            <!-- Pregunta 1 -->
+            <TextView
+                android:id="@+id/Pregunta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="1- ¿Qué es un algoritmo?"
+                android:textColor="#474E53"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p1_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Una serie de pasos que se deben seguir para resolver un problema."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p1_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Una función que toma un valor de entrada y devuelve un valor de salida."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p1_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Una estructura de datos que almacena información."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p1_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Una máquina que puede pensar por sí misma."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Co_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Respuesta correcta: Una serie de pasos que se deben seguir para resolver un problema."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#012b7e" />
+
+            <!-- Pregunta 2 -->
+            <TextView
+                android:id="@+id/Pregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="2- ¿Cuáles son los diferentes tipos de algoritmos?"
+                android:textColor="#474E53"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p2_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Algoritmos de búsqueda, algoritmos de clasificación, algoritmos de optimización y algoritmos de aprendizaje automático."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p2_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Algoritmos de búsqueda y algoritmos de clasificación."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p2_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Algoritmos de optimización y algoritmos de aprendizaje automático."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p2_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Algoritmos de búsqueda, algoritmos de clasificación y algoritmos de optimización."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Co_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Respuesta correcta: Algoritmos de búsqueda, algoritmos de clasificación, algoritmos de optimización y algoritmos de aprendizaje automático."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#012b7e" />
+
+            <!-- Pregunta 3 -->
+            <TextView
+                android:id="@+id/Pregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="3- ¿Cuáles son las ventajas de usar algoritmos?"
+                android:textColor="#474E53"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p3_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Velocidad, eficiencia y precisión."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p3_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Flexibilidad, facilidad de implementación y precisión."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p3_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Velocidad, eficiencia y flexibilidad."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p3_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Eficiencia, precisión y facilidad de implementación."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Co_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Respuesta correcta: Velocidad, eficiencia y precisión."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#012b7e" />
+
+            <!-- Pregunta 4 -->
+            <TextView
+                android:id="@+id/Pregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="4- ¿Cuáles son las desventajas de usar algoritmos?"
+                android:textColor="#474E53"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p4_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Complejidad, posibilidad de errores y requerimiento de recursos."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p4_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Flexibilidad, dificultad de implementación y precisión."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p4_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Velocidad, eficiencia y flexibilidad."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p4_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Eficiencia, precisión y facilidad de implementación."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Co_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Respuesta correcta: Complejidad, posibilidad de errores y requerimiento de recursos."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#012b7e" />
+
+            <!-- Pregunta 5 -->
+            <TextView
+                android:id="@+id/Pregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="5- ¿Cuáles son los diferentes lenguajes de programación que se pueden usar para implementar algoritmos?"
+                android:textColor="#474E53"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p5_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="C++, Java, Python, R y otros."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p5_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="C++ y Java."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p5_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Java y Python."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/p5_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:text="Python y R."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Co_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Respuesta correcta: C++, Java, Python, R y otros."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#012b7e" />
+
+            <!-- Botones -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_int"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#012B7E"
+                    android:text="Intentar de nuevo" />
+
+                <Button
+                    android:id="@+id/btn_pag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#012979"
+                    android:text="Ir a la página principal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
