@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Preguntas">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,8 +21,8 @@
                 android:id="@+id/Titulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="43dp"
-                android:layout_marginEnd="42dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:text="Prueba"
                 android:textColor="#012b7e"
                 android:textSize="35sp"
@@ -42,6 +42,7 @@
                 android:text="Conteste correctamente las siguientes preguntas:"
                 android:textColor="#474E53"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -62,6 +63,7 @@
                     android:text="1- ¿Qué es un algoritmo?"
                     android:textColor="#474E53"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -112,6 +114,7 @@
                     android:text="2- ¿Cuáles son los diferentes tipos de algoritmos?"
                     android:textColor="#474E53"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -162,6 +165,7 @@
                     android:text="3- ¿Cuáles son las ventajas de usar algoritmos?"
                     android:textColor="#474E53"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -213,6 +217,7 @@
                     android:text="4- ¿Cuáles son las desventajas de usar algoritmos?"
                     android:textColor="#474E53"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -247,6 +252,56 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Eficiencia, precisión y facilidad de implementación." />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="5- ¿Cuáles son los diferentes lenguajes de programación que se pueden usar para implementar algoritmos?"
+                    android:textColor="#474E53"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.322" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++, Java, Python, R y otros." />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++ y Java." />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Java y Python." />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Python y R." />
                 </RadioGroup>
             </LinearLayout>
         </LinearLayout>

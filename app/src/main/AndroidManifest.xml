@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Semestral"
         tools:targetApi="31">
         <activity
+            android:name=".resultados"
+            android:exported="false" />
+        <activity
+            android:name=".Preguntas"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
