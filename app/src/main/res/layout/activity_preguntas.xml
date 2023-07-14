@@ -72,6 +72,7 @@
                     app:layout_constraintVertical_bias="0.322" />
 
                 <RadioGroup
+                    android:id="@+id/RG1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -123,6 +124,7 @@
                     app:layout_constraintVertical_bias="0.322" />
 
                 <RadioGroup
+                    android:id="@+id/RG2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -174,6 +176,7 @@
                     app:layout_constraintVertical_bias="0.322" />
 
                 <RadioGroup
+                    android:id="@+id/RG3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -226,6 +229,7 @@
                     app:layout_constraintVertical_bias="0.322" />
 
                 <RadioGroup
+                    android:id="@+id/RG4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -276,6 +280,7 @@
                     app:layout_constraintVertical_bias="0.322" />
 
                 <RadioGroup
+                    android:id="@+id/RG5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
